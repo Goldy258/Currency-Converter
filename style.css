@@ -1,0 +1,65 @@
+html, body {
+  background-color: #313235;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+div {
+  max-width: 800px;
+  background: #202124;
+  border: none;
+  border-radius: 2em;
+}
+
+.Converter form {
+  border:0;
+  justify-content: center;
+  font-size: 3rem;
+  text-align: center;
+  font-weight: lighter !important;
+  padding: 0.5em;
+  box-shadow: 1em rgb(0, 0, 0);
+  align-items: stretch;
+  border-radius: 1em;
+}
+
+.Converter input {
+  font-family: 'Roboto', sans-serif;
+  background: transparent;
+  width: 15em;
+  margin: 1rem;
+  border-radius: 6px;
+  border: 1px solid #5f6368;
+  color: #9aa0a6!important;
+  font-size: 14px !important;
+  height: 36px;
+  padding: 0 0 0 12px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.Converter select {
+  font-family: 'Roboto', sans-serif;
+  background: transparent;
+  width: 15em;
+  margin: 1rem;
+  border-radius: 6px;
+  border: 1px solid #5f6368;
+  color: #9aa0a6!important;
+  font-size: 14px !important;
+  height: 36px;
+  padding: 0 0 0 12px;
+}
+
+select:hover {
+  cursor: pointer;
+}
